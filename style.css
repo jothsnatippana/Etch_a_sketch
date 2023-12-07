@@ -1,0 +1,53 @@
+.game
+{
+    margin:0px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:40px;
+    gap:10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+}
+body
+{
+  margin:0;
+  box-sizing: border-box;
+}
+.grid-container
+{
+    border: 1px solid darkviolet;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.grid-Item
+{
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    align-items: stretch;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.row-items
+{
+    border: 1px solid violet;
+    display: flex;
+    flex:1;
+}
+.erasing
+{
+    text-align: center;
+}
+.attributes
+{
+    display:flex;
+    gap:10px;
+    flex-direction:column;
+}
